@@ -1,6 +1,8 @@
+package com.ITO;
+
 import java.util.ArrayList;
 
-public class assign1 {
+public class Assign1 {
 
 	public static void main(String[] args) {
 		ArrayList<String> student= new ArrayList<String>();
@@ -22,7 +24,7 @@ public class assign1 {
        
        student.clear();
        System.out.println(student);
-       
+
 	}
 
 }

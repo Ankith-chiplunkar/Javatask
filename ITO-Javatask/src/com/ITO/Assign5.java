@@ -1,13 +1,17 @@
+package com.ITO;
+
 import java.util.HashMap;
 import java.util.Set;
 
-public class assign5 {
+public class Assign5 {
 
 	public static void main(String[] args) {
 		HashMap<Integer,String> map=new HashMap<Integer, String>();
 		map.put(1,"A");
 		map.put(2,"B");
 		map.put(3,"C");
+		map.put(null,"Ah");
+		map.put(3, "f"); 
 		
 		System.out.println(map);
 		
@@ -25,8 +29,6 @@ public class assign5 {
 		System.out.println(set);
 		
 		System.out.println("collection view of values: "+ map.values());
-		
-	
 
 	}
 

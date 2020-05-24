@@ -1,16 +1,20 @@
+package com.ITO;
+
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class assign4 {
-
+public class Assign4 {
+	
 	public static void main(String[] args) {
-		TreeSet<Integer> set=new TreeSet<Integer>();
+TreeSet<Integer> set=new TreeSet<Integer>();
 		
-		set.add(1);
+		set.add(5);
+		set.add(3);
 		set.add(2);
+		set.add(6);
 		set.add(5);
 		System.out.println(set);
-		
+		 
 		Iterator<Integer> it=set.iterator();
 		while(it.hasNext()) {
 			System.out.println(it.next());
@@ -28,8 +32,6 @@ public class assign4 {
 		System.out.println(set1.pollFirst());
 		
 		System.out.println(set1.pollLast());
-		
-		 
 	}
 
 }

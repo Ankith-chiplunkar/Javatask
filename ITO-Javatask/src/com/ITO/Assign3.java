@@ -1,20 +1,22 @@
+package com.ITO;
+
 import java.util.HashSet;
 
-public class assign3 {
+public class Assign3 {
 
 	public static void main(String[] args) {
-		HashSet<String> set= new HashSet<String>();
+HashSet<String> set= new HashSet<String>();
 		
 		set.add("A");
 		set.add("B");
 		set.add("C");
 		
-		System.out.println(set);
+		System.out.println("adding " +set);
 		
 		set.add("cgd");
 		set.add("ggd");
 		set.add("wadd");
-		
+		 
 		System.out.println(set);
 		
 		System.out.println(set.size());
@@ -29,9 +31,5 @@ public class assign3 {
 		
 		set.clear();
 		System.out.println(set);
-		
-		
-
 	}
-
 }

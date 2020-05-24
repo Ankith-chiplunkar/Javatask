@@ -1,9 +1,11 @@
+package com.ITO;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class assign2 {
-
+public class Assign2 {
+	
 	public static void main(String[] args) {
 		LinkedList<String> list= new LinkedList<String>();
 		list.add("first");
@@ -27,7 +29,6 @@ public class assign2 {
 		ArrayList<String> alist= new ArrayList<>(list);
 		
 		System.out.println(alist);
-        
 	}
 
 }

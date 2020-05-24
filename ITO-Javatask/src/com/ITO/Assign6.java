@@ -1,7 +1,9 @@
+package com.ITO;
+
 import java.util.Set;
 import java.util.TreeMap;
 
-public class assign6 {
+public class Assign6 {
 
 	public static void main(String[] args) {
 		TreeMap<Integer,String> map=new TreeMap<Integer,String>();
@@ -25,8 +27,7 @@ public class assign6 {
 	    
 	    map.clear(); 
 	    System.out.println(map);
-	    
-	    
+
 	}
 
 }
