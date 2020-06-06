@@ -13,7 +13,7 @@ public class NumberToWords {
 			"ninety "};
 
 	public static void main(String[] args) {
-		int number = 1000000;
+		int number =  101;
 		System.out.println(convert(number));
 
 	}

@@ -1,0 +1,10 @@
+bp_data=D:\\ITO\\java\\bp_data.xlsx
+URL=jdbc:mysql://localhost:3306
+protocall=jdbc
+sub_protocall=mysql
+domain_name=localhost
+port_number=3306
+database_name=demosteps
+table_name=bp_table
+username=root
+password=root

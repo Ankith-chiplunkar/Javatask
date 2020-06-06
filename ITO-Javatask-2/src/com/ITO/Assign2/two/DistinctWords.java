@@ -12,7 +12,7 @@ public class DistinctWords {
 		BufferedReader br = new BufferedReader(new FileReader("D:\\ITO\\java\\Assign.txt"));
 		String st = br.readLine();
 		if(st!=null) {
-			st = st.replaceAll("[^a-zA-Z0-9 ]", "");    // using regular expressions.
+			st = st.toUpperCase();   
 			String[] words = st.split(" ");
 			
 			for (int i = 0; i < words.length; i++) {
